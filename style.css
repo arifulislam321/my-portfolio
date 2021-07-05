@@ -6,7 +6,8 @@ h1{
     font-size: 50px;
 }
 .name-color{color: orange;}
-section{display: flex;
+.flexible-container{
+    display: flex;
 margin-bottom: 100px;
 }
 .half-width{
@@ -31,4 +32,39 @@ padding-left: 5%;
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.last{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 5%;
+   
+}
+.last h1{
+    color: yellowgreen;
+}
+.last h3{
+    color: orange;
+}
+.last div{
+    box-shadow: 5px 4px 30px yellowgreen;
+}
+#border{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, orange, blue);
+    border-image-slice: 1;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+#border-one{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgb(30, 255, 0), blue);
+    border-image-slice: 1;
+    padding: 20px;
+    margin-left: 20px;
+}
+footer p{
+    text-align: center;
 }
